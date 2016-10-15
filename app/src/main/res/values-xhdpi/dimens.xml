@@ -1,0 +1,15 @@
+<resources>
+    <!-- Used across all layout -->
+    <dimen name="font_size_l">32sp</dimen>
+    <dimen name="font_size_m">24sp</dimen>
+    <dimen name="font_size_s">16sp</dimen>
+    <dimen name="font_size_xs">8dp</dimen>
+    <dimen name="margin_l">15dp</dimen>
+    <dimen name="margin_m">10dp</dimen>
+    <dimen name="margin_s">5dp</dimen>
+    <!-- for earthquake item -->
+    <dimen name="earthquake_item_height">60dp</dimen>
+    <dimen name="earthquake_item_margin_top_bottom">8dp</dimen>
+    <dimen name="earthquake_item_margin_left_right">5dp</dimen>
+    
+</resources>

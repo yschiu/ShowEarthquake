@@ -65,7 +65,10 @@ public class EarthquakeDataParser {
                 earthquakeList.add(quake);
             }
             mEarthquakes = earthquakeList;
-            return true;
+            if (mEarthquakes.size() > 0)
+                return true;
+            else
+                return false;
         } catch (JSONException e) {
             e.printStackTrace();
             return false;

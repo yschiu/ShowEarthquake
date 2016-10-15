@@ -16,11 +16,13 @@ import static org.junit.Assert.*;
  */
 
 public class EathquakeDataParserTest {
-    private static final String MOCK_EARTHQUAKE_JSON_STRING = "{\"count\":\"21740\",\"earthquakes\":[{\"src\":\"us\",\"eqid\":\"c000is61\",\"timedate\":\"2013-07-29 22:22:48\",\"lat\":\"7.6413\",\"lon\":\"93.6871\",\"magnitude\":\"4.6\",\"depth\":\"40.90\",\"region\":\"Nicobar Islands, India region\"}]}\n" +
+    private static final String MOCK_EARTHQUAKE_JSON = "{\"count\":\"21740\",\"earthquakes\":[{\"src\":\"us\",\"eqid\":\"c000is61\",\"timedate\":\"2013-07-29 22:22:48\",\"lat\":\"7.6413\",\"lon\":\"93.6871\",\"magnitude\":\"4.6\",\"depth\":\"40.90\",\"region\":\"Nicobar Islands, India region\"}]}\n" +
             "\n"; //1 earthquake
+    private static final String MOCK_EARTHQUAKE_JSON_NO_DATA = "{\"count\":\"0\",\"earthquakes\":[]}\n" +
+            "\n";
     @Test
     public void parser_correctData(){
-        EarthquakeDataParser parser = new EarthquakeDataParser(MOCK_EARTHQUAKE_JSON_STRING);
+        EarthquakeDataParser parser = new EarthquakeDataParser(MOCK_EARTHQUAKE_JSON);
         parser.parse();
         assertEquals(21740, parser.getEarthquakeTotalCount());
         List<Earthquake> earthquakes = parser.getEarthquakes();
@@ -41,5 +43,13 @@ public class EathquakeDataParserTest {
         assertEquals(4.6, quake.getMagnitude(), 0.3);
         assertEquals(40.90, quake.getDepth(), 2);
         assertEquals("Nicobar Islands, India region", quake.getRegionName());
+    }
+    @Test
+    public void parser_noData(){
+        EarthquakeDataParser parser = new EarthquakeDataParser(MOCK_EARTHQUAKE_JSON_NO_DATA);
+        parser.parse();
+        assertEquals(0, parser.getEarthquakeTotalCount());
+        List<Earthquake> earthquakes = parser.getEarthquakes();
+        assertEquals(0, earthquakes.size());
     }
 }

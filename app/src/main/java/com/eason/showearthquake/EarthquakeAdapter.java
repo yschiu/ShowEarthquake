@@ -9,6 +9,7 @@ import android.widget.TextView;
 
 import com.eason.earthquakedatafetcher.model.Earthquake;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -29,10 +30,18 @@ public class EarthquakeAdapter extends RecyclerView.Adapter<EarthquakeAdapter.Vi
         this.notifyDataSetChanged();
     }
 
+    public void clear() {
+        mEarthquakes.clear();
+    }
+
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
         Earthquake earthquake = mEarthquakes.get(position);
         holder.mRegionNameTextView.setText(earthquake.getRegionName());
+        holder.mMagnitude.setText(Double.toString(earthquake.getMagnitude()));
+        holder.mDepth.setText(Double.toString(earthquake.getDepth()));
+        SimpleDateFormat dateFormat = new SimpleDateFormat();
+        holder.mDate.setText(dateFormat.format(earthquake.getDate()));
     }
 
     @Override
@@ -44,11 +53,17 @@ public class EarthquakeAdapter extends RecyclerView.Adapter<EarthquakeAdapter.Vi
     }
 
     static class ViewHolder extends RecyclerView.ViewHolder{
+        public TextView mMagnitude;
+        public TextView mDepth;
+        public TextView mDate;
         public TextView mRegionNameTextView;
         public ViewHolder(View itemView){
             super(itemView);
 
-            this.mRegionNameTextView = (TextView) itemView.findViewById(R.id.region_name);
+            this.mMagnitude = (TextView)itemView.findViewById(R.id.magnitude);
+            this.mDepth = (TextView)itemView.findViewById(R.id.depth);
+            this.mDate = (TextView)itemView.findViewById(R.id.timedate);
+            this.mRegionNameTextView = (TextView)itemView.findViewById(R.id.region_name);
         }
     }
 }
