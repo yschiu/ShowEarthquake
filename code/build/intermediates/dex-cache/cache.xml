@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/chiu_mac/Australia/job/AuPost/ShowEarthquake/code/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/chiu_mac/Australia/job/AuPost/ShowEarthquake/code/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_e4ad0a8dcc428c190ff56b9e24b49fc503abd6ce/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chiu_mac/Australia/job/AuPost/ShowEarthquake/code/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="05155340b59671ad7ef49d545b059a934bbefed8">
+        <dex dex="/Users/chiu_mac/Australia/job/AuPost/ShowEarthquake/code/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_b3cf61d6b0cc723d9f3dad59825f8310f934bde7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chiu_mac/Australia/job/AuPost/ShowEarthquake/code/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="2e76c4a7ee12575dbad68c57891cae76a7dcca3e">
+        <dex dex="/Users/chiu_mac/Australia/job/AuPost/ShowEarthquake/code/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_cd8c22682fa52c751a5d6561c4c9bdf1086cdf5a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chiu_mac/Australia/job/AuPost/ShowEarthquake/code/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/chiu_mac/Australia/job/AuPost/ShowEarthquake/code/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_9944c3e6b4ac205b841b06ce4cb5ffebb7714ae8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chiu_mac/Australia/job/AuPost/ShowEarthquake/code/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/chiu_mac/Australia/job/AuPost/ShowEarthquake/code/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_04863b37804e96f848e28877c5e8348546c633b7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chiu_mac/Australia/job/AuPost/ShowEarthquake/code/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="/Users/chiu_mac/Australia/job/AuPost/ShowEarthquake/code/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.2.1_ada42180768798b36e3921a991ff5f52ef8c27cd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chiu_mac/Australia/job/AuPost/ShowEarthquake/code/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/chiu_mac/Australia/job/AuPost/ShowEarthquake/code/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_abff008c621908dddc6d736eb1945008ad6090c7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chiu_mac/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Users/chiu_mac/Australia/job/AuPost/ShowEarthquake/code/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_2a3f56104f7a046bf651c102207ac13720a0b46a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chiu_mac/Australia/job/AuPost/ShowEarthquake/code/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/chiu_mac/Australia/job/AuPost/ShowEarthquake/code/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_ca059245376832451ee3a9c1623422ccedcc42ee/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chiu_mac/Australia/job/AuPost/ShowEarthquake/code/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/chiu_mac/Australia/job/AuPost/ShowEarthquake/code/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_f27b661fef1c9ca9698472d4678a8b142577190a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chiu_mac/Australia/job/AuPost/ShowEarthquake/code/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="/Users/chiu_mac/Australia/job/AuPost/ShowEarthquake/code/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.2.1_406b6c97903e4e5fb209535c558d38bcd9771d9c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chiu_mac/Australia/job/AuPost/ShowEarthquake/code/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/chiu_mac/Australia/job/AuPost/ShowEarthquake/code/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_8d90f360707e90954f7a7cf6ce8661c60e300025/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chiu_mac/Australia/job/AuPost/ShowEarthquake/code/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/chiu_mac/Australia/job/AuPost/ShowEarthquake/code/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_012ec55ebcbd122d4b4f39d3b157b9cba42c91f1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chiu_mac/Australia/job/AuPost/ShowEarthquake/code/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/chiu_mac/Australia/job/AuPost/ShowEarthquake/code/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_018a9e2f532f5acde1ca50ef4e39168f2b91814e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chiu_mac/Australia/job/AuPost/ShowEarthquake/code/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/chiu_mac/Australia/job/AuPost/ShowEarthquake/code/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_6f819a9946c3c7c00f21c6e4aeea128898f90b56/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chiu_mac/Australia/job/AuPost/ShowEarthquake/code/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/chiu_mac/Australia/job/AuPost/ShowEarthquake/code/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_0f26f8494e4266137d833cd40741f346e4228e48/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chiu_mac/Australia/job/AuPost/ShowEarthquake/code/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/chiu_mac/Australia/job/AuPost/ShowEarthquake/code/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_39dbc6a29a084a14e74351c13d29f8699d6e855a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chiu_mac/Australia/job/AuPost/ShowEarthquake/code/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/chiu_mac/Australia/job/AuPost/ShowEarthquake/code/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_4da370ca567bff92440c2a57c4572b4624c4e33e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/chiu_mac/Australia/job/AuPost/ShowEarthquake/code/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/chiu_mac/Australia/job/AuPost/ShowEarthquake/code/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_87b9a19055037e9bf4c76d50478ded2fd5ea6c26/classes.dex" />
+    </item>
+
+</items>

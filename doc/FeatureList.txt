@@ -1,0 +1,6 @@
+1. Show earthquake data(Magnitude, Depth, Date, Region Name) in a list
+2. Loading more earthquakes when scroll to bottom of the list
+3. Swipe to refresh in order to update data
+4. Filter Oprions(Year, Month, Magnitude)
+5. press button to launch map to show the location of the earthquake
+
