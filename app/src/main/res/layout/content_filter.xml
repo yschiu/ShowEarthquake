@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:layout_width="200dp"
         android:text="@string/label_filter_year"
-        android:textSize="@dimen/font_size_l"/>
+        style="@style/MyFont.Large" />
     <Spinner
         android:id="@+id/spinner_year"
         android:layout_toEndOf="@+id/label_filter_year"
@@ -36,7 +36,7 @@
         android:layout_height="wrap_content"
         android:layout_width="200dp"
         android:text="@string/label_filter_month"
-        android:textSize="@dimen/font_size_l"/>
+        style="@style/MyFont.Large" />
     <Spinner
         android:id="@+id/spinner_month"
         android:layout_toEndOf="@+id/label_filter_month"
@@ -57,7 +57,7 @@
         android:layout_height="wrap_content"
         android:layout_width="200dp"
         android:text="@string/label_filter_magnitude"
-        android:textSize="@dimen/font_size_l"/>
+        style="@style/MyFont.Large" />
     <Spinner
         android:id="@+id/spinner_magnitude"
         android:layout_toEndOf="@+id/label_filter_magnitude"

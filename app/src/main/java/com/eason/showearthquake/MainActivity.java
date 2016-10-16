@@ -36,10 +36,12 @@ public class MainActivity extends AppCompatActivity implements EarthquakeDataFet
 
     //for loading more
     private boolean isLoadingMore;
-    private int visibleThreshold = 3;
+    private int visibleThreshold = 2;
     private int lastVisibleItem, totalItemCount;
     //Filter for RESTful API
     private EarthquakeDataFetcher.FilterOption mFilter;
+    //total earthquake count of last request
+    private int mTotalEarthquakes;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -65,7 +67,7 @@ public class MainActivity extends AppCompatActivity implements EarthquakeDataFet
         //configure recycler view
         mEarthquakeRecyclerView
                 .setLayoutManager(new LinearLayoutManager(this.getApplicationContext()));
-        mEarthquakeAdapter = new EarthquakeAdapter();
+        mEarthquakeAdapter = new EarthquakeAdapter(this);
         mEarthquakeRecyclerView.setAdapter(mEarthquakeAdapter);
         //scroll to last item to load more
         mEarthquakeRecyclerView.addOnScrollListener(new RecyclerView.OnScrollListener() {
@@ -77,10 +79,13 @@ public class MainActivity extends AppCompatActivity implements EarthquakeDataFet
                 lastVisibleItem = lm.findLastVisibleItemPosition();
 
                 if (!isLoadingMore && totalItemCount <= (lastVisibleItem + visibleThreshold)) {
-                    //load more data here
-                    isLoadingMore = true;
-                    mFilter.setLimit(mFilter.getLimit() + EarthquakeDataFetcher.DEFAULT_LIMIT);
-                    updateEarthquakeData();
+                    //Maybe there are no more earthquake data we can load
+                    if (mEarthquakeAdapter.getItemCount() < Math.min(EarthquakeDataFetcher.MAX_LIMIT, mTotalEarthquakes)) {
+                        //load more data here
+                        isLoadingMore = true;
+                        mFilter.setLimit(mFilter.getLimit() + EarthquakeDataFetcher.DEFAULT_LIMIT);
+                        updateEarthquakeData();
+                    }
                 }
             }
         });
@@ -223,6 +228,7 @@ public class MainActivity extends AppCompatActivity implements EarthquakeDataFet
     @Override
     public void onFetchSuccess(int totalEarthquakes, List<Earthquake> earthquakes) {
         Log.d(MainActivity.class.getSimpleName(), "onFetchSuccess:" + totalEarthquakes);
+        mTotalEarthquakes = totalEarthquakes;
         if (mSwipeRefreshLayout.isRefreshing()) {
             mEarthquakeAdapter.clear();
             mSwipeRefreshLayout.setRefreshing(false);

@@ -30,7 +30,7 @@ public class EathquakeDataParserTest {
         Earthquake quake = earthquakes.get(0);
         assertEquals("us", quake.getSource());
         assertEquals("c000is61", quake.getId());
-        SimpleDateFormat format = new SimpleDateFormat(EarthquakeDataParser.DATE_FORMAT);
+        SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         Date date = null;
         try {
             date = format.parse("2013-07-29 22:22:48");

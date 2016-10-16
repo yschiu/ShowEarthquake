@@ -1,5 +1,7 @@
 package com.eason.earthquakedatafetcher.model;
 
+import android.util.Log;
+
 import com.eason.earthquakedatafetcher.EarthquakeDataParser;
 
 import java.text.ParseException;

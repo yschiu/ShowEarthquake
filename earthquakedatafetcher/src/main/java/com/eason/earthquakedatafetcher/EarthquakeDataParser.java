@@ -15,7 +15,7 @@ import java.util.List;
  */
 
 public class EarthquakeDataParser {
-    public static final String DATE_FORMAT ="yyyy-MM-DD HH:mm:ss";
+    public static final String DATE_FORMAT ="yyyy-MM-dd HH:mm:ss";
     private static final String COUNT = "count";//Amount of earthquakes for request
     private static final String EARTHQUAKE = "earthquakes";//List of earthquakes
     private static final String EARTHQUAKE_SRC = "src";//Source station for earthquake data

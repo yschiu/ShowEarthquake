@@ -8,8 +8,7 @@
     <dimen name="margin_m">10dp</dimen>
     <dimen name="margin_s">5dp</dimen>
     <!-- for earthquake item -->
-    <dimen name="earthquake_item_height">60dp</dimen>
     <dimen name="earthquake_item_margin_top_bottom">8dp</dimen>
     <dimen name="earthquake_item_margin_left_right">5dp</dimen>
-    
+    <dimen name="google_map_icon_size">50dp</dimen>
 </resources>

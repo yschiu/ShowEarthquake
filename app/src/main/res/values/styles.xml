@@ -17,4 +17,22 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <style name="MyFont" parent="@android:style/Widget.TextView"/>
+
+    <style name="MyFont.Large">
+        <item name="android:textSize">@dimen/font_size_l</item>
+    </style>
+
+    <style name="MyFont.Medium">
+        <item name="android:textSize">@dimen/font_size_m</item>
+    </style>
+
+    <style name="MyFont.Small">
+        <item name="android:textSize">@dimen/font_size_s</item>
+    </style>
+
+    <style name="MyFont.XSmall">
+        <item name="android:textSize">@dimen/font_size_xs</item>
+    </style>
+
 </resources>

@@ -41,9 +41,9 @@ public class EarthquakeDataFetcher {
             int limit = mFilterOption.getLimit() > 0 ? mFilterOption.getLimit() : -1;
             float minMagnitude = mFilterOption.getMinMagnitude() > 0.0f ? mFilterOption.getMinMagnitude() : -1;
             if (year > 0) {
-                url += "/" + year;
+                url += "/" + String.format("%02d", year);
                 if (month > 0) {
-                    url += "/" + month;
+                    url += "/" + String.format("%02d", month);
                 }
             }
             if (limit > 0) {
@@ -108,6 +108,7 @@ public class EarthquakeDataFetcher {
             return mMonth;
         }
 
+        //set -1 to ignore this filter option
         public void setMonth(int month) {
             this.mMonth = month;
         }
@@ -116,6 +117,7 @@ public class EarthquakeDataFetcher {
             return mLimit;
         }
 
+        //set -1 to ignore this filter option
         public void setLimit(int limit) {
             this.mLimit = limit;
         }
@@ -124,6 +126,7 @@ public class EarthquakeDataFetcher {
             return mMinMagnitude;
         }
 
+        //set -1 to ignore this filter option
         public void setMinMagnitude(float minMagnitude) {
             this.mMinMagnitude = minMagnitude;
         }
@@ -132,6 +135,7 @@ public class EarthquakeDataFetcher {
             return mYear;
         }
 
+        //set -1 to ignore this filter option
         public void setYear(int year) {
             this.mYear = year;
         }

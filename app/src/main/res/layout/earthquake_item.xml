@@ -16,20 +16,20 @@
             android:layout_alignParentStart="true"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="@dimen/font_size_l"/>
+            style="@style/MyFont.Large"/>
         <TextView
             android:id="@+id/depth"
             android:layout_below="@+id/magnitude"
             android:layout_alignStart="@+id/magnitude"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="@dimen/font_size_xs"/>
+            style="@style/MyFont.XSmall"/>
         <TextView
             android:layout_alignTop="@+id/depth"
             android:layout_toEndOf="@+id/depth"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="@dimen/font_size_xs"
+            style="@style/MyFont.XSmall"
             android:text="@string/kilo_meter"/>
         <TextView
             android:id="@+id/timedate"
@@ -38,14 +38,22 @@
             android:layout_marginStart="@dimen/margin_s"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="@dimen/font_size_s"/>
+            style="@style/MyFont.Small"/>
         <TextView
             android:id="@+id/region_name"
             android:layout_alignStart="@+id/timedate"
             android:layout_below="@+id/timedate"
+            android:layout_toStartOf="@+id/go_to_map"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="@dimen/font_size_s"/>
+            style="@style/MyFont.Small"/>
+        <ImageView
+            android:id="@+id/go_to_map"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="@dimen/margin_s"
+            android:layout_height="@dimen/google_map_icon_size"
+            android:layout_width="@dimen/google_map_icon_size"
+            android:src="@drawable/google_map"/>
     </RelativeLayout>
     <View
         android:layout_width="match_parent"
