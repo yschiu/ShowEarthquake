@@ -1,0 +1,11 @@
+1. Make sure you have latest version of android studio
+2. Make sure you have following tools or SDK installed:
+    a. Android SDK Build Tool
+    b. Android SDK Platform-Tools
+    c. Android SDK Tools
+    d. Android Support Repository
+    e. Android 5.0 SDK platform
+
+    you can use SDK manager to install those
+3. Use Android Studio to open exist project. select code
+3. Once it finished gradle building, you can press the Run button in your Android studio
